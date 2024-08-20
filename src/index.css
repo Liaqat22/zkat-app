@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Rajdhani:wght@300&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rajdhani', sans-serif; */
+*{
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+
+}
+.mainrow{
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submitbtn:hover{
+  background: rgb(208, 185, 229) !important;
+  color: aliceblue !important;
+}
+img{
+  width: 100%;
+}
+ /* ========================== forms ======================================== */
+ .form-control{
+  font-size: 1.6rem;
+  padding: 1rem;
+  border: 0.1rem solid gold;
+  border-radius: 1.1rem;
+  font-weight: 500;
+  box-shadow: 0.1rem 0.1rem 0.1rem gold;
+}
+ .form-control:focus{
+  border-color: #ffc107;
+ }
+
+
+ @media screen and  (min-width:300px) and (max-width:430px) {
+ 
+  .width75-100{
+    width: 100%;
+  }
+  .filters{
+    display: none;
+  }
+  .offcanvasmain  {
+    display: block;
+  }
+  .ordertable {
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+}
+@media screen and  (min-width:430px) and (max-width:575px) {
+
+  .width75-100{
+    width: 100%;
+  }
+  .filters{
+    display: none;
+  }
+  .offcanvasmain  {
+    display: block;
+  }
+  }
+  
+
+@media screen and (min-width:574px) and (max-width:767px) {
+ 
+  .filters{
+    display: none;
+  }
+  .offcanvasmain  {
+    display: block;
+  }
+  .width75-100{
+    width: 100%;
+  }
+  
+
+}
+
+@media screen and (min-width:765px) and (max-width:990px) {
+ 
+
+ .allproductsAdminCol{
+  width: 50%;
+ }
+  .homePimgCOL{
+    width: 50%;
+  }
+  
+}
+
+
+  @media screen and (min-width:1600px) and (max-width:2560px) {
+    .layout{
+      width: 1600px;
+      margin: 0 auto;
+    }
+  }
